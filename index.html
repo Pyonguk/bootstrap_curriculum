@@ -277,24 +277,29 @@
     </section>
   </div>
 <div class="container">
-  <div class="row">
+  <div class="row hgt d-flex align-items-center">
     <div class="col-md-5">
         <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
   
     </div>
     <div class="col-md-7">
-      <form class="form" action="https://formspree.io/f/xeqvpzae" method="post">
+      <form class="form d-flex " action="https://formspree.io/f/xeqvpzae" method="post">
         <ul class="list-unstyled">
-            <li class="border-bottom">
-                <input type="text" id="name" placeholder="Full name" required maxlength="30">
+            <li class="pt-4 mt-2" >
+              <span class="d-flex ">
+                <input type="text" id="name" class="border-0 border-bottom mx-3 " placeholder="First name" required maxlength="30">
+              
+
+              <input type="text" id="name" class="border-0 border-bottom"  placeholder="Last name" required maxlength="30">
+            </span>
             </li>
-            <li class="border-bottom">
-                <input type="email" name="user-email" id="email" placeholder="Email address" required>
+            <li class="pt-4 mt-2">
+                <input type="email" name="user-email" id="email" class="border-0 border-bottom mx-3" placeholder="Email address" required>
             </li>
-            <li>
-                <textarea name="comment" id="comment" placeholder="Enter text here" maxlength="500" required></textarea>
+            <li class="mt-2">
+                <textarea name="comment" id="comment" class="border-0 border-bottom mx-3 " placeholder="Hello Mariane. Glad to see you |" maxlength="500" required></textarea>
             </li>
-            <li class="btn-touch border-btn">
+            <li class="btn-touch border-btn btn">
                 <button class="submit" type="submit">Get in touch</button>
             </li>
         </ul>

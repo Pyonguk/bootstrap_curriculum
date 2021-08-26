@@ -225,6 +225,21 @@ font-size: 22px;
 line-height: 43px;
   }
 
+  .form ul input ,
+  .form ul textarea {
+    width: 100%;
+  }
+
+  .form ul textarea {
+    background: #fbf8f7;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    height: 90px;
+  }
+
   .bg-img {
     background-image: url(./img/illustration-about-me.svg);
     background-position: right bottom;
@@ -259,4 +274,23 @@ line-height: 43px;
     background: #ff6b00;
     border-radius: 150px;
     margin-right: 12px;
+  }
+
+  .hgt {
+    height: 614px;
+  }
+
+  .submit {
+    background: #ff6b00;
+    text-align: center;
+    width: 131px;
+    border: none;
+    padding: 12px;
+    color: #fff;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
   }
